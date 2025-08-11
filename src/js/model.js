@@ -1,7 +1,6 @@
 import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE } from './config.js';
-import { KEY } from './KEY.js';
-// import { getJSON, sendJSON } from './helpers.js';
+import { KEY } from './config.js';
 import { AJAX } from './helpers.js';
 
 export const state = {
